@@ -35,5 +35,5 @@
 *.uasset
 *.umap
 *.png
-/Content/Learning2_Movement/Animation/**
-!Content/Learning2_Movement/
+!Content/Learning2_Movement/BluePrints/**
+!Content/Learning2_Movement/Maps/**
