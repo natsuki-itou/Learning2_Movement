@@ -15,6 +15,9 @@
 - Enhanced Input
 - CharacterMovementComponent
   - orient rotation to movement
+- Controller != nullptrをやる意味
+  > コンストラクタでやると初期化が間に合わない場合がある その状態で呼び出すとクラッシュするから
+- not buuleanとnot equalは違う 当たり前
 ### C++
 - 
 
@@ -24,6 +27,7 @@
 ## 不明点や調査が必要な点
 - デリゲート
 - Controller->GetControlRotation()とGetActorForwardVector()でとれるベクトルの違い、イメージ
+- ベクトル、高校数学
 
 ## 参考
 - [Character Movement (キャラクターの動き) を設定する | Unreal Engine 5.5 ドキュメンテーション | Epic Developer Community](https://dev.epicgames.com/documentation/ja-jp/unreal-engine/setting-up-character-movement)
